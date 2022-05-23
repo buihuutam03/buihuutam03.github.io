@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Band</title>
+    <link rel="icon" href="./assets/img/map/276136220_1144102179677628_1957958456354747389_n (1).jpg" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <script src="https://kit.fontawesome.com/da734fedd4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="main">
         <div id="header">
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="fa-solid fa-sort-down"></i>
                     </a>
                     <!-- subnav là thẻ phụ con nav
                     ul.subnav>li*3>a -->
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
             <div class="fa-solida">
                 <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div id= "mobile-menu" class="menu-btn">
+                <i class="menu-icon fa-solid fa-bars"></i>    
             </div>
         </div>
 
@@ -42,23 +47,23 @@
         </div>
             
         <div id="content">
-            <div class="content-section"> 
+            <div id="band" class="content-section"> 
                 <h2 class="section-heading">THE BAND</h2>
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                      <!-- anh phan about-->
                     <div class="row member-list">
-                        <div class="col col-third text-center">
+                        <div class="s-col-full mt-32 col col-third text-center">
                                 <p class="member-name">Name</p>
                                 <img src="./assets/img/band/bandmember1.jpg" alt="name" class="member-img">
                         </div>  
 
-                        <div class="col col-third text-center">
+                        <div class="s-col-full mt-32 col  text-center">
                                 <p class="member-name">Name</p>
                                 <img src="./assets/img/band/bandmember1.jpg" alt="name" class="member-img">
                          </div>  
 
-                        <div class="col col-third text-center">
+                        <div class="s-col-full mt-32 col  text-center">
                                 <p class="member-name">Name</p>
                                 <img src="./assets/img/band/bandmember1.jpg" alt="name" class="member-img">
                         </div> 
@@ -66,7 +71,7 @@
                             <!-- de the member-list om duoc cac the con -->
                     </div>
                  </div>          
-                 <div class="tour-section">    
+            <div id="tour" class="tour-section">    
 
                 <div class="content-section">
                     <h2 class="section-heading text-white">TOUR DATES</h2>
@@ -77,7 +82,7 @@
                         <li>November <span class="quantity">3</span></li>
                     </ul>
                     <div class="row places-list">
-                        <div class="col col-third">
+                        <div class="col col-third mt-16 s-col-full">
                             <img src="./assets/img/places/place_1.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
@@ -86,7 +91,7 @@
                                 <button class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="col col-third mt-16 s-col-full">
                             <img src="./assets/img/places/place_2.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
@@ -95,7 +100,7 @@
                                 <button class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="col col-third mt-16 s-col-full">
                             <img src="./assets/img/places/place_3.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
@@ -108,23 +113,23 @@
                 </div>            
             </div>
                 
-                <!--  -->
-            <div class="content-section"> 
+                <!--  a-->
+            <div id="contact" class="content-section"> 
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
+                    <div class="col s-col-full mtcol-half contact-info">
                         <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
                         <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
                         <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col s-col-full mtcol-half contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="text" name="" required placeholder="Name" id="" class="form-control">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="email" name="" required placeholder="Email" id="" class="form-control">
                                 </div>
                             </div>
@@ -133,18 +138,27 @@
                                     <input  type="text" name="" required placeholder="Message" id="" class="form-control">
                                 </div>
                             </div>
-                            <input class="btn mt-16 pull-right" type="submit" value="SEND">
+                            <input class="btn mt-16 pull-right s-full-width" type="submit" value="SEND">
                         </form>
 
                     </div>
                 </div>
             </div>
               <div class="map-section">
+                  <img src="./assets/img/map/276136220_1144102179677628_1957958456354747389_n (1).jpg" alt="">
                     
               </div>
-        </div>
+            </div>
         <div id="footer">
-
+            <div class="socials-list">
+                <a href="https://www.facebook.com/buihuutam03/"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/buihuutam03/"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="">W3.css</a></p>
         </div>
     </div>
     <div class="modal js-modal">
@@ -178,12 +192,14 @@
             <p class="modal-help">Need <a href="https://www.youtube.com/watch?v=kgx4WGK0oNU">help</a></p>
         </div>
     </div>
+    </div>
     <script>
+      
         const buyBtns = document.querySelectorAll('.js-buy-ticket')
         const modal =document.querySelector('.js-modal')
         const modalClose =document.querySelector('.js-modal-close')
         const modalcontainer =document.querySelector('.js-modal-container')
-        //Hàm hiển thị modal mua vé( thêm class open vào modal)
+        //Hàm hiển thị modal mua vé thêm class open vào modal
         function showbuyticket(){   
             modal.classList.add('open')
         }
@@ -201,10 +217,42 @@
         modalcontainer.addEventListener('click', function(event){
             event.stopPropagation()
         } )
+        // open closed menu
+        var header=document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        mobileMenu.onclick=function(){
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed){
+                header.style.height = 'auto';    
+            }else{
+                header.style.height =null;
+            }
+        }
+        // tu dong dong chon menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for( var i = 0; i < menuItems.length; i++){
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function() {
+                var isParentMenu= this.nextElementSibling &&this.nextElementSibling.classList.contains('subnav');
+                if(isParentMenu) {
+                    event.preventDefault();
+                }else{
+                    header.style.height =null;
+                }
+                
+            }
+        }
+
+       
+
         
     </script>
+
+
+   
 </body>
 </html>
                     
-            
-                
+        
