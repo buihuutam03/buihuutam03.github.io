@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background:#e0e0e0;
+    font-family: 'poppins',sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,700&display=swap');
+
+.profile_img{
+    width: 100px; 
+    height: 100px;
+    border-radius:50%;
+    background:#e0e0e0;
+    box-shadow: 5px 5px 10px #afafaf, -5px -5px 10px #fff;
+
+}
+
+
+.media_icons .fa-facebook{
+    color:blue;
+}
+.media_icons .fa-instagram{
+    color:deeppink;
+}
+.media_icons .fa-twitter{
+    color: deepskyblue;
+}
+.media_icons .fa-youtube{
+    color:red;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    width:100vw;
+    height:100vh;
+
+}
+.card{
+    border-radius:5px;
+    width:250px;
+    padding:15px 12px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background:#e0e0e0;
+    box-shadow:5px 5px 10px #c3c3c3, -5px -5px 10px #fdfdfd;
+    background-image: url(/assets/img/avatar.jpg) center/cover;
+
+
+}
+.Card h2{
+    margin-top:10px;
+    font-size: 20px;
+    
+}
+.card h4{
+    font-size: 12px;
+}
+.card p{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.media_icons{   
+    margin: 10px 0;
+    display:flex;
+}
+.media_icons li{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0 6px;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    box-shadow: 3px 3px 7px #afafaf,-3px -3px 7px #fff;
+}
+.media_icons li a i{
+    font-size:15px;  
+}
+.btn{
+    font-size:15px;
+    margin:12px 4px;
+    padding:5px 11px;
+    border: none;
+    cursor: pointer;
+    border-radius:17px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 9px #c1c1c1, -5px -5px 9px #fff;
+
+    
+}
